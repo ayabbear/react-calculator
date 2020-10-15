@@ -1,0 +1,15 @@
+.key {
+  &__white {
+    background-color: #f7edff;
+    color: #808080;
+  }
+  &__orange {
+    background-color: #fbc363;
+    color: white;
+  }
+  &__long {
+    background-color: #f7edff;
+    color: #808080;
+    grid-column: span 2 / span 2;
+  }
+}
